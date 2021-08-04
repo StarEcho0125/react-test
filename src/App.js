@@ -1,9 +1,12 @@
 import React from 'react';
+import CryptoTable from './CryptoTable';
 
 const App = () => {
 	return (
-		<div>
-			<h1>Hello World!</h1>
+		<div className="container pt-5">
+			<div className="row">
+				<CryptoTable />
+			</div>
 		</div>
 	)
 }
